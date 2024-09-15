@@ -1,19 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="dist/style.css">
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="qr-code-component-proj1/qr-code.html">QR Code project</a></li>
-            </ul>
-        </nav>
-    </header>
+<main class="main">
+    <article class="article-qr main__article-qr main__article-qr_shadow">
+        <figure class="card-qr article_qr__card-qr">
+            <img src="assets/images/image-qr-code.png" alt="QR code - link to frontend mentor" class="card-qr__img">
+
+            <figcaption class="card-qr__figcaption card-qr_text-align">
+                <h3 class="card-qr__title card-qr__title_preset1">Improve your front-end skills by building projects</h3>
+                <p class="card-qr__paragraph card-qr__paragraph_preset2">Scan the QR code to visit
+                    Frontend Mentor and take your coding skills to the next level</p>
+            </figcaption>
+        </figure>
+    </article>
+
+</main>
+<footer class="footer">
+    <div class="attribution">
+        Challenge by <a href="#" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/Petrakoow" target="_blank">petrakowww</a>.
+    </div>
+</footer>
 </body>
 </html>
