@@ -1,0 +1,28 @@
+// Colors
+
+$white: hsl(0, 0%, 100%);
+$slate300: hsl(212, 45%, 89%);
+$slate500: hsl(216, 15%, 48%);
+$slate900: hsl(218, 44%, 22%);
+
+// Font-size
+
+$font-size-body: 15px;
+
+// Font
+
+@font-face {
+  font-family: 'Outfit';
+  src: url("qr-code-component-proj1/assets/fonts/Outfit-Regular.ttf") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url("qr-code-component-proj1/assets/fonts/Outfit-Bold.ttf") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
