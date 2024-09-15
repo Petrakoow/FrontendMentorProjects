@@ -94,28 +94,31 @@ body {
   margin-bottom: 24px;
 }
 
-.card-qr__figcaption {
-  padding: 0 16px;
-}
-.card-qr__figcaption.card-qr_text-align {
-  text-align: center;
-}
-
 .card-qr__title {
   color: hsl(218, 44%, 22%);
   margin-bottom: 16px;
 }
-.card-qr__title.card-qr__title_preset1 {
+
+.card-qr__paragraph {
+  color: hsl(216, 15%, 48%);
+}
+
+.card-qr__figcaption {
+  text-align: center;
+}
+
+.card-qr__figcaption {
+  padding: 0 16px;
+}
+
+.card-qr__title_preset1 {
   font-size: 22px;
   line-height: 120%;
   letter-spacing: 0;
   font-weight: 700;
 }
 
-.card-qr__paragraph {
-  color: hsl(216, 15%, 48%);
-}
-.card-qr__paragraph.card-qr__paragraph_preset2 {
+.card-qr__paragraph_preset2 {
   font-size: 15px;
   line-height: 140%;
   letter-spacing: 0.2px;

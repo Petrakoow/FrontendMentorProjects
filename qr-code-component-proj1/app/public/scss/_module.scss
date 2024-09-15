@@ -22,42 +22,30 @@
   margin-bottom: 24px;
 }
 
-.card-qr__figcaption {
-  padding: 0 16px;
-  &.card-qr_text-align {
-    text-align: center;
-  }
-}
-
 .card-qr__title {
   color: $slate900;
   margin-bottom: 16px;
-
-  &.card-qr__title_preset1 {
-    font-size: 22px;
-    line-height: 120%;
-    letter-spacing: 0;
-    font-weight: 700;
-  }
 }
 
 .card-qr__paragraph {
   color: $slate500;
-
-  &.card-qr__paragraph_preset2 {
-    font-size: 15px;
-    line-height: 140%;
-    letter-spacing: 0.2px;
-    font-weight: 400;
-  }
 }
 
+// Pattern
+%text-center {
+  text-align: center;
+}
 
+.card-qr__figcaption {
+  padding: 0 16px;
+  @extend %text-center;
+}
 
+// Include mixins
+.card-qr__title_preset1 {
+  @include text-style-pattern(22px, 120%, 0, 700);
+}
 
-
-
-
-
-
-
+.card-qr__paragraph_preset2 {
+  @include text-style-pattern(15px, 140%, 0.2px, 400);
+}
