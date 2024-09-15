@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("qr-code-component-proj1/assets/fonts/Outfit-Regular.ttf") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("qr-code-component-proj1/assets/fonts/Outfit-Bold.ttf") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -52,27 +66,13 @@ table {
   border-spacing: 0;
 }
 
-main {
+body {
+  background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", "sans-serif";
 }
 
-@font-face {
-  font-family: "Outfit";
-  src: url("qr-code-component-proj1/assets/fonts/Outfit-Regular.ttf") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Outfit";
-  src: url("qr-code-component-proj1/assets/fonts/Outfit-Bold.ttf") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
 .main {
   min-height: 100vh;
-  background-color: hsl(212, 45%, 89%);
   display: flex;
   align-items: center;
   justify-content: center;
